@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BEGIN POPPING</title>
+	<style>
+
+		.row {
+			display: grid;
+			flex-wrap: : wrap;
+			padding: 0 0px;
+		}
+
+		.column {
+			flex: 50%;
+            margin: auto 0;
+            min-width: 2040px
+		}
+
+		.column img {
+			margin-top: 0px;
+			vertical-align: middle;
+            border-radius: 50%;
+		}
+
+        .button1 {
+            background-color: pink;
+            width: 200px;
+            height: 80px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-table;
+            margin-left: 1000px;
+            border-radius: 20px;
+            box-shadow: 0px 7px #888888;
+            outline: none;
+            font-weight: bold;
+            font-size: 18px;
+            
+        }
+
+        .button1:active {
+            box-shadow: 0px 3px #888888;
+            transform: translateY(4px); 
+        }
+
+        .button2 {
+            background-color: pink;
+            width: 200px;
+            height: 80px;
+            text-align: center;
+            cursor: help ;
+            display: inline-table;
+            margin-left: 60px;
+            border-radius: 20px;
+            box-shadow: 0px 7px #888888;
+            outline: none;
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+
+        .button2:active {
+            box-shadow: 0px 3px #888888;
+            transform: translateY(4px); 
+        }
+
+        .resetButton {
+            background-color: white;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-table;
+            margin-left: 200px;
+            border-radius: 20px;
+            box-shadow: 0px 7px #888888;
+            outline: none;
+            font-weight: bold;
+            font-size: 18px
+        }
+
+        .resetButton:active {
+            box-shadow: 0px 3px #888888;
+            transform: translateY(4px);
+        }
+
+        .imageDone {
+            pointer-events: none;
+        }
+
+        .slowmotion {
+            border-radius: 50%;
+            margin-left: 935px;
+        }
+
+        .slomotext {
+            color: white;
+            margin-left: 947px;
+            font-size: 24px;
+        }
+
+        .name {
+            color: white;
+            margin-left: 1750px;
+            font-size: 24px;
+        }
+
+	</style>
+
+</head>
+
+<body style = "background-color: black;">
+
+   <audio id = "audio">
+    <source src = "poppedsound.mp3" type = "audio/mpeg">
+   </audio>     
+
+    <div class="row">
+    <div class="column">
+
+    <img id= "1" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "2" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "3"  onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "4" onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "5" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    
+    <img id = "6" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "7" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "8"  onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "9"  onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "10" onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);"  src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+
+
+
+    </div>
+    <div class="column">
+    <img id = "11" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "12" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "13"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "14"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "15" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    
+    <img id = "16"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+   
+    <img id = "17" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+   
+    <img id = "18" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "19" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "20" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    </div>
+    <div class="column">
+    <img id = "21" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "22"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "23" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "24" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "25" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    
+    <img id = "26" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "27" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+   
+    <img id = "28" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "29" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+   
+    <img id = "30" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    </div>
+    <div class="column">
+    <img id = "31"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "32" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "33" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "34"  onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "35" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    
+    <img id = "36" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "37" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img   id = "38" onmouseover="this.src ='burst.png';play()" onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "39" onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    <img id = "40" onmouseover="this.src ='burst.png';play()"  onmouseout="inactiveImage(this.id);" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+    
+    </div>
+    </div>
+
+<br>
+<br>
+
+<button class ="button1" type = "button" onclick="changeSoundPop()">POP SOUND</button>
+<button class ="button2" type = "button" onclick = "changeSoundMeme()">MEME SOUND</button>
+<button class ="resetButton"   type = "button" onclick="window.location.reload();">RESET</button>
+
+<br>
+<br>
+<br>
+<br>
+
+<img class ="slowmotion" id = "41" onmouseover="timeoutfunc(this.id);" onmouseout="inactiveImage(this.id)" src="bubble-clipart-cartoon-1.jpg" width = "200" height = "200">
+
+<h4 class = "slomotext">SLOW MOTION</h4> <h3 class = "name">BY - ADHIRAJ SINGH</h3>
+
+<script type="text/javascript">
+
+
+    function changeSoundPop() {
+        document.getElementById("audio").setAttribute("src", "poppedsound.mp3");
+    }
+
+    function changeSoundMeme() {
+        document.getElementById("audio").setAttribute("src", "memesound.mp3");
+    }
+
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.load();
+        audio.play();
+    }
+
+    function inactiveImage(x) {
+        var element = document.getElementById(x);
+        element.classList.add("imageDone");
+    }
+
+    function timeoutfunc(x) {
+        setTimeout(function() { animateImage1(x); }, 70);
+        setTimeout(function() {animateImage2(x);  }, 140);
+        setTimeout(function() {animateImage3(x);  }, 210);
+        setTimeout(function() {animateImage4(x);  }, 280);
+        setTimeout(function() {animateImage5(x);  }, 350);
+        setTimeout(function() {animateImage6(x);  }, 420);
+        setTimeout(function() {animateImage7(x);  }, 490);
+        setTimeout(function() {animateImage8(x);  }, 560);
+
+    }
+
+    function animateImage1(x) {
+        document.getElementById(x).src = "semi1.jpg";
+    }
+
+    function animateImage2(x) {
+        document.getElementById(x).src = "semi2.jpg";
+    }
+
+    function animateImage3(x) {
+        document.getElementById(x).src = "semi3.jpg";
+    }
+
+    function animateImage4(x) {
+        document.getElementById(x).src = "semi4.jpg";
+    }
+
+    function animateImage5(x) {
+        document.getElementById(x).src = "semi5.jpg";
+    }
+
+    function animateImage6(x) {
+        document.getElementById(x).src = "semi6.jpg";
+    }
+
+    function animateImage7(x) {
+        document.getElementById(x).src = "semi7.jpg";
+    }
+    function animateImage8(x) {
+        document.getElementById(x).src = "semi8.jpg";
+    }
+
+</script>
+
+</body>
+</html>
