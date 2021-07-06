@@ -1,5 +1,5 @@
 # Popped
-**NOTE** optimzed and best run on internet explorer. Extremely slow on other browsers.
+**NOTE** optimzed and best run on microsoft edge/internet explorer. Extremely slow on other browsers.
 
 Opens pop on your default brower and allows user to burst virtual bubble wrap. Can reset when done. 
 
